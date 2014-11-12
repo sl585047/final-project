@@ -44,7 +44,33 @@ h4 {
     author styles
     place your custom styles below here
 ========================================== */
+.navbar {
+  display:inline;
+  float: right;
+  margin:20px;
+}
 
+.logo {
+  float:left;
+  margin:auto;
+}
+
+li {
+  display: inline-block;
+  margin: 5px;
+  font-family:'Petit+Formal+Script';
+}
+ 
+.contact {
+  float:right;
+  margin-right:20px;
+  font-family:'Petit+Formal+Script';
+}
+
+
+  
+  
+  
 
 
 
