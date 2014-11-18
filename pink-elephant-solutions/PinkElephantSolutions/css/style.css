@@ -1,0 +1,75 @@
+body {
+	background: url('../images/paper.jpg');
+	color: rgba(0, 0, 0, 0.35);
+	font: 14px/22px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+#contact, h1, #content, #about, #work{
+	display: block;
+	position: relative;
+	clear: both;
+}
+#contact, h1, #content {
+	width: 4000px;
+}
+#contact, #content {
+	padding-left: 41px;
+}
+#contact {
+	text-transform: uppercase;
+	background: rgba(0, 0, 0, 0.1);
+	height: 40px;
+}
+#contact p {
+	width: 350px;
+	padding: 10px 20px;
+    margin: auto;
+	border-right: 2px solid rgba(255, 255, 255, 0.5);
+	display: block;
+	float: left;
+	font-weight: bold;
+}
+h1, h2 {
+	height: 200px;
+	text-transform: uppercase;
+	white-space: nowrap;
+	cursor: default;
+	letter-spacing: -4px;
+	word-spacing: -10px;
+	float: left;
+}
+h1 {
+	font: bold 200px/200px Helvetica, "Helvetica Neue", Arial, sans-serif;
+	color: rgba(200, 54, 54, 0.2);
+}
+#content {
+	height: 200px;
+	background: rgba(0, 0, 0, 0.1);
+}
+h2 {
+	padding:0 25px 0 20px;
+	border-right: 2px solid rgba(255, 255, 255, 0.5);
+	color: rgba(0, 0, 0, 0.35);
+	text-align: center;
+	display: block;
+	position: relative;
+	float: left;
+	font: bold 140px/200px Helvetica, "Helvetica Neue", Arial, sans-serif;
+}
+.first {
+	border-left:2px solid rgba(255, 255, 255, 0.5);
+}
+li {
+	height: 200px;
+	display: block;
+	position: relative;
+	float: left;
+}
+ul li p {
+	width: 350px;
+	height: 156px;
+	float: left;
+	border-right: 2px solid rgba(255, 255, 255, 0.5);
+	padding: 44px 20px 0 20px;
+	text-align: justify;
+	color: rgba(0, 0, 0, 0.5);
+}
