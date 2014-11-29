@@ -23,11 +23,7 @@ object {
   max-width: 100%;
 }
 
-body {
-	background-image: url('../img/paper.jpg');
-	color: rgba(0, 0, 0, 0.35);
-	font: 14px/22px 'Great Vibes', Arial, Helvetica, sans-serif;
-}
+
 
 /* =======================================
     author styles
@@ -36,71 +32,92 @@ body {
 .navbar {
   width: 100%;
   height: 10px;
-  margin: auto;
+  margin-right:40px;
   padding:10px;
   text-align: center;
   font-family:'Open Sans';
-  background-color: pink;
+  background-color: white;
   text-transform: uppercase;
+  border-right-style: solid;
+  background-image: url("https://secure.static.tumblr.com/0c3b11af51270e4a9624a595991c894d/gebl2lm/y98n9uqol/tumblr_static_vintage_pattern_black_and_white-wallpaper-1600x900.jpg")
 }
 
-#contact, h1, #content {
+.contact, h1 {
 	width: 100%;
     margin: auto;
-    
-}
-#contact, #content {
-	padding-left: 0px;
-   
-}
-
-#contact {
-	background: pink;
-	height: 40px;
-
-}
-
-#contact p {
-	width: 25%;
-	padding: 10px 2px;
-    margin: auto;
-	border-right: 4px solid rgba(255, 255, 255, 0.5);
-	display: inline-block;
-	float: left;
-    font-family:'Open Sans';
-    text-align:center;  
-    font-size: 20px
-
-}
-
-h1 {
-	letter-spacing: 4px;
-	text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 55px;
-    font-family:'Great Vibes';
+    padding-right:80px; 
   
 }
 
-.heading h1 {
+.contact{
+  background-image: url("https://secure.static.tumblr.com/0c3b11af51270e4a9624a595991c894d/gebl2lm/y98n9uqol/tumblr_static_vintage_pattern_black_and_white-wallpaper-1600x900.jpg");
+    padding:20px;
+    margin:auto;
+  
+}
+
+.contact li{
+  background-color:white;
+  font-family:'Open Sans';
+  font-size: 2em;
+  padding-right:80px;
+}
+
+h2 {
+	letter-spacing: 4px;
+	text-align: center;
+    font-size: 55px;
+    font-family:'Great Vibes';
+    background-color:white;
+    padding-top:20px;
+  
+    
+}
+
+
+.heading h2 {
   font-family:'Great Vibes';
   font-size: 5em;
   color: pink;
-  background-color: gray;
+  text-align:left;
+  background-color:white;
+  padding-left:10px;
   
 }
 
+.heading h3{
+  text-align:left;
+  padding-left:100px;
+  text-indent: inherit;
+  font-family:'Great Vibes';
+  color:pink;
+  font-size:3em;
+}
+
+
+.heading h4{
+  text-align:right;
+  padding-right:80px;
+  font-family:'Great Vibes';
+  font-size:2em;
+  color:pink;
+}
 
 .navbar li {
   display: inline-block;
   margin: auto;
-  padding: 5px;
-  border-right: 4px solid rgba(255, 255, 255, 0.5);
+  padding-right:20px;
+  padding-left:20px;
   font-family:'Open Sans';
-  background-color: pink;
-  text-decortation:none;
+  background-color: white;
   font-size: 1.5em;
+  word-spacing:1px;
+  border-right-style:solid;
+  border-spacing: 2px;
+  border-color:white;
+  font-color:white;
+ 
+  
 }
 
 
@@ -108,7 +125,7 @@ h1 {
   
 }
 
-.col-md-2 {
+.col-sm-2 {
   height:70px;
   margin:auto;
   padding-bottom: 20%;
@@ -124,7 +141,7 @@ h1 {
 
 
 
-.col-md-5 {
+.col-sm-5 {
   height:80%;
   width:20%;
   padding-left:20%;
@@ -143,26 +160,62 @@ h1 {
 }
 
 
-.row2{
+.row{
   padding-top:5%;
 }
 
 
 
 
+a:link{
+  color:black;
+
+}
+
+a:hover {
+  color: black;
+}
 
 
 
 
+.container-fluid-designers{
+  font-family:'Open Sans';
+  font-size: 1.5em;
+    
+}
 
 
-
-
-
-
+.designers{
+border:solid;
+padding:10px;
+margin:auto;
+font-size: 2em;
+font-family:'Great Vibes';
+color:pink;
+text-align:center;
+  
+}
 
   
+.dresses{
+border-bottom:solid;
+border-right:solid;
+padding:10px;
+margin:auto;
+font-size: 1.4em;
+font-family:'Great Vibes';
+color:pink;
+
+
+}
+
+.bmaids{
+  padding:10px;
+  margin:auto;
+  border-right:solid;
   
+}
 
 
 
