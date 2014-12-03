@@ -46,6 +46,7 @@ object {
 	width: 100%;
     margin: auto;
     padding-right:80px; 
+    display: inline-block;
   
 }
 
@@ -53,6 +54,7 @@ object {
   background-image: url("https://secure.static.tumblr.com/0c3b11af51270e4a9624a595991c894d/gebl2lm/y98n9uqol/tumblr_static_vintage_pattern_black_and_white-wallpaper-1600x900.jpg");
     padding:20px;
     margin:auto;
+    display:inline-block;
   
 }
 
@@ -61,6 +63,7 @@ object {
   font-family:'Open Sans';
   font-size: 2em;
   padding-right:80px;
+  display: inline-block;
 }
 
 h2 {
@@ -75,18 +78,18 @@ h2 {
 }
 
 
-.heading h2 {
+.heading h1 {
   font-family:'Great Vibes';
   font-size: 5em;
   color: pink;
-  text-align:left;
+  text-align:center;
   background-color:white;
   padding-left:10px;
   
 }
 
 .heading h3{
-  text-align:left;
+  text-align:center;
   padding-left:100px;
   text-indent: inherit;
   font-family:'Great Vibes';
