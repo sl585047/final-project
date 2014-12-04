@@ -54,57 +54,31 @@ object {
   background-image: url("https://secure.static.tumblr.com/0c3b11af51270e4a9624a595991c894d/gebl2lm/y98n9uqol/tumblr_static_vintage_pattern_black_and_white-wallpaper-1600x900.jpg");
     padding:20px;
     margin:auto;
-    display:inline-block;
-  
-}
-
-.contact li{
-  background-color:white;
-  font-family:'Open Sans';
-  font-size: 2em;
-  padding-right:80px;
-  display: inline-block;
-}
-
-h2 {
-	letter-spacing: 4px;
-	text-align: center;
-    font-size: 55px;
-    font-family:'Great Vibes';
-    background-color:white;
-    padding-top:20px;
-  
     
 }
 
-
-.heading h1 {
-  font-family:'Great Vibes';
-  font-size: 5em;
-  color: pink;
-  text-align:center;
-  background-color:white;
-  padding-left:10px;
+.heading{
+  padding:10px;
+  margin:auto;
   
 }
 
-.heading h3{
-  text-align:center;
-  padding-left:100px;
-  text-indent: inherit;
-  font-family:'Great Vibes';
-  color:pink;
-  font-size:3em;
+.heading img{
+  heigh:150px;
+  width:400px;
+  
+
+  
 }
 
 
-.heading h4{
-  text-align:right;
-  padding-right:80px;
-  font-family:'Great Vibes';
-  font-size:2em;
-  color:pink;
+.heading p{
+  display:block;
+  font-family:'Open Sans';
+  font-size:1.3em;
 }
+
+
 
 .navbar li {
   display: inline-block;
@@ -124,22 +98,18 @@ h2 {
 }
 
 
-.row {
-  
-}
 
 .col-sm-2 {
   height:70px;
   margin:auto;
   padding-bottom: 20%;
-  background-color: grey;
   text-align: center;
   font-family:'Open Sans';
   font-size:1.5em;
   image-orientation: center;
   text-decoration:underline;
-  border: 2px solid;
-  border-radius: 25px;
+
+  
 }
 
 
@@ -150,14 +120,12 @@ h2 {
   padding-left:20%;
   margin:-1px;
   display:inline-block;
-  background-color: grey;
   text-align: center;
   font-family:'Open Sans';
   font-size:1.5em;
   image-orientation: center;
   text-decoration:underline;
-  border: 2px solid;
-  border-radius: 25px;
+
   
   
 }
@@ -221,6 +189,19 @@ color:pink;
 }
 
 
+.col-sm-4{
+  padding:5px;
+  
+}
+
+.brides{ 
+  padding-bottom:5px;
+}
+
+.ourbrides{
+  font-family:'Great Vibes';
+  text-align: center;
+}
 
 
 
@@ -234,13 +215,20 @@ color:pink;
 
 
 
+.footer{
+  text-align: center;
+  background-image:url("https://secure.static.tumblr.com/0c3b11af51270e4a9624a595991c894d/gebl2lm/y98n9uqol/tumblr_static_vintage_pattern_black_and_white-wallpaper-1600x900.jpg");
+  padding-top:10px;
+}
 
-
-
-
-
-
-
+.footer p{
+display:inline;
+font-size:1.3em;
+padding-right:10px;
+background-color:white;
+  
+  
+}
 
 
 
