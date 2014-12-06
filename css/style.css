@@ -64,18 +64,24 @@ object {
 }
 
 .heading img{
-  heigh:150px;
+  heigh:250px;
   width:400px;
-  
-
-  
+  float:left;
+  padding-left:80px;
+ 
 }
 
 
 .heading p{
   display:block;
   font-family:'Open Sans';
-  font-size:1.3em;
+  font-size:1.6em;
+
+}
+
+.contactstuff{
+  float:right;
+  padding-right:70px;
 }
 
 
@@ -161,7 +167,7 @@ a:hover {
 border:solid;
 padding:10px;
 margin:auto;
-font-size: 2em;
+font-size: 2.4em;
 font-family:'Great Vibes';
 color:pink;
 text-align:center;
@@ -171,13 +177,11 @@ text-align:center;
   
 .dresses{
 border-bottom:solid;
-border-right:solid;
 padding:10px;
 margin:auto;
-font-size: 1.4em;
+font-size: 2.3em;
 font-family:'Great Vibes';
 color:pink;
-
 
 }
 
@@ -185,6 +189,8 @@ color:pink;
   padding:10px;
   margin:auto;
   border-right:solid;
+  font-size:2em;
+  font-family:'Open Sans';
   
 }
 
@@ -201,11 +207,97 @@ color:pink;
 .ourbrides{
   font-family:'Great Vibes';
   text-align: center;
+  color:pink;
+}
+
+.ourbrides h2{
+  font-size:2.5em;
+  text-decoration: underline;
+}
+
+
+#carousel-example-generic{
+  height:550px;
+  width:770px;
+  align-items: center;
+  
 }
 
 
 
+.history{
+  padding-right:100px;
+  padding-left:10px;
+  padding-top:0px;
+  font-family:'Open Sans';
+  font-size:1.2em;
+  
+}
 
+.history h2{
+  font-family:'Great Vibes';
+  color:pink;
+  font-size:2em;
+}
+
+.history img{
+  float:right;
+  height:400px;
+  width:300px;
+  padding-bottom:70px;
+  padding-top:0px;
+}
+
+
+.hourss h2{
+  font-family:'Great Vibes';
+  color:pink;
+  font-size:2.2em;
+  
+}
+
+
+.hours{
+ padding-left:50px;
+ padding-right:50px;
+ text-align:center;
+ border:solid 3px;
+ font-size:1.3em;
+ font-family:'Open Sans';
+  
+}
+
+.showroom{
+  padding-left:50px;
+  padding-right:50px;
+  text-align:center;
+  
+}
+
+.mt{
+ border:solid 3px;
+ font-family:'Open Sans';
+ font-size:1.3em;
+}
+
+.fri{
+  border:solid 3px;
+  font-family:'Open Sans';
+  font-size:1.3em;
+}
+
+.sat{
+  border:solid 3px;
+  font-family:'Open Sans';
+  font-size:1.3em;
+
+}
+
+.buttons{
+  padding-top:20px;
+  font-family:'Open Sans';
+  align-items: center;
+}
 
 
 
@@ -216,19 +308,12 @@ color:pink;
 
 
 .footer{
-  text-align: center;
   background-image:url("https://secure.static.tumblr.com/0c3b11af51270e4a9624a595991c894d/gebl2lm/y98n9uqol/tumblr_static_vintage_pattern_black_and_white-wallpaper-1600x900.jpg");
-  padding-top:10px;
+  padding:40px;
+  margin:auto;
 }
 
-.footer p{
-display:inline;
-font-size:1.3em;
-padding-right:10px;
-background-color:white;
-  
-  
-}
+
 
 
 
