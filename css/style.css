@@ -82,6 +82,7 @@ object {
 .contactstuff{
   float:right;
   padding-right:70px;
+  margin-left:40px;
 }
 
 
@@ -100,65 +101,38 @@ object {
   border-color:white;
   font-color:white;
  
-  
 }
 
-
-
-.col-sm-2 {
-  height:70px;
-  margin:auto;
-  padding-bottom: 20%;
-  text-align: center;
-  font-family:'Open Sans';
-  font-size:1.5em;
-  image-orientation: center;
-  text-decoration:underline;
-
-  
-}
-
-
-
-.col-sm-5 {
-  height:80%;
-  width:20%;
-  padding-left:20%;
-  margin:-1px;
-  display:inline-block;
-  text-align: center;
-  font-family:'Open Sans';
-  font-size:1.5em;
-  image-orientation: center;
-  text-decoration:underline;
-
+.tour h2{
+  font-family:'Great Vibes';
+  font-size:2.3em;
+  color:pink;
+  padding-right:50px;
+  margin:10px;
   
   
 }
+  
 
-
-.row{
-  padding-top:5%;
+#carousel{
+  height:360px;
+  width:500px;
+  align-content:center;
+  margin:10px;
 }
 
-
-
-
-a:link{
-  color:black;
-
+.twitter{
+  float:right;
+  margin-right:60px;
+  padding:50px;
+  
 }
-
-a:hover {
-  color: black;
-}
-
-
-
 
 .container-fluid-designers{
   font-family:'Open Sans';
   font-size: 1.5em;
+  padding-left:50%;
+  padding-right:50%;
     
 }
 
@@ -217,20 +191,32 @@ color:pink;
 
 
 #carousel-example-generic{
-  height:550px;
-  width:770px;
-  align-items: center;
-  
+  height:316px;
+  width:520px;
+  padding-bottom:60px;
+  float:center;
 }
 
+.tabs{
+ margin-bottom:50px;
+ margin-left:10px;
+ margin-right:10px;
 
+}
+ 
+.events{
+margin:20px;
+font-family:'Great Vibes';
+font-size:2.3em;
+color:pink;
+}
 
 .history{
   padding-right:100px;
   padding-left:10px;
   padding-top:0px;
   font-family:'Open Sans';
-  font-size:1.2em;
+  font-size:1.3em;
   
 }
 
@@ -253,7 +239,6 @@ color:pink;
   font-family:'Great Vibes';
   color:pink;
   font-size:2.2em;
-  
 }
 
 
@@ -261,9 +246,9 @@ color:pink;
  padding-left:50px;
  padding-right:50px;
  text-align:center;
- border:solid 3px;
  font-size:1.3em;
  font-family:'Open Sans';
+ margin:10px;
   
 }
 
@@ -275,19 +260,16 @@ color:pink;
 }
 
 .mt{
- border:solid 3px;
  font-family:'Open Sans';
  font-size:1.3em;
 }
 
 .fri{
-  border:solid 3px;
   font-family:'Open Sans';
   font-size:1.3em;
 }
 
 .sat{
-  border:solid 3px;
   font-family:'Open Sans';
   font-size:1.3em;
 
@@ -296,20 +278,34 @@ color:pink;
 .buttons{
   padding-top:20px;
   font-family:'Open Sans';
-  align-items: center;
+  text-align: center;
+  margin:10px;
 }
 
 
+.map{
+  float:right;
+  padding-bottom:10px;
+}
 
+.address p{
+ margin:10px;
+ padding-left:10px;
+ text-align:center;
+ align-content:center;
+ font-family:'Open Sans';
+ font-size:1.2em;
+  
+}
 
-
-
-
-
+address{
+  margin:50px;
+  
+}
 
 .footer{
   background-image:url("https://secure.static.tumblr.com/0c3b11af51270e4a9624a595991c894d/gebl2lm/y98n9uqol/tumblr_static_vintage_pattern_black_and_white-wallpaper-1600x900.jpg");
-  padding:40px;
+  padding:30px;
   margin:auto;
 }
 
